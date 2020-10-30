@@ -13,26 +13,26 @@ This package helps you to add user block system to your project.
 
 First, pull in the package through Composer.
 
-Run `composer require hareku/laravel-user-blockable`
+Run `composer require probablyrational/laravel-user-blockable`
 
 And then, include the service provider within `config/app.php`.
 
 ```php
 'providers' => [
-    Hareku\LaravelBlockable\BlockableServiceProvider::class,
+    ProbablyRational\LaravelBlockable\BlockableServiceProvider::class,
 ];
 ```
 
 Publish the config file. (blockable.php)
 
 ```sh
-$ php artisan vendor:publish --provider="Hareku\LaravelBlockable\BlockableServiceProvider"
+$ php artisan vendor:publish --provider="ProbablyRational\LaravelBlockable\BlockableServiceProvider"
 ```
 
 Finally, use Blockable trait in User model.
 
 ```php
-use Hareku\LaravelBlockable\Traits\Blockable;
+use ProbablyRational\LaravelBlockable\Traits\Blockable;
 
 class User extends Model
 {
