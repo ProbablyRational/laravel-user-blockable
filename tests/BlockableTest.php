@@ -1,6 +1,6 @@
 <?php
 
-namespace Hareku\LaravelBlockable\Tests;
+namespace ProbablyRational\LaravelBlockable\Tests;
 
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
