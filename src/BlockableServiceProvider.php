@@ -1,6 +1,6 @@
 <?php
 
-namespace Hareku\LaravelBlockable;
+namespace ProbablyRational\LaravelBlockable;
 
 use Illuminate\Support\ServiceProvider;
 
