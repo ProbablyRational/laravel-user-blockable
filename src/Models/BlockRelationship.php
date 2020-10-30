@@ -1,6 +1,6 @@
 <?php
 
-namespace Hareku\LaravelBlockable\Models;
+namespace ProbablyRational\LaravelBlockable\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
