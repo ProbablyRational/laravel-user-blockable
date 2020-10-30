@@ -1,9 +1,13 @@
 {
-    "name": "hareku/laravel-user-blockable",
+    "name": "probablyrational/laravel-user-blockable",
     "description": "Laravel 5 user block system",
     "keywords": ["laravel", "block"],
     "license": "MIT",
     "authors": [
+        {
+            "name": "Zachary Claret-Scott",
+            "email": "zachary.claretscott@probablyrational.com"
+        },
         {
             "name": "hareku",
             "email": "hareku908@gmail.com"
@@ -20,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Hareku\\LaravelBlockable\\": "src/"
+            "ProbablyRational\\LaravelBlockable\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Hareku\\LaravelBlockable\\Tests\\": "tests/"
+            "ProbablyRational\\LaravelBlockable\\Tests\\": "tests/"
         }
     },
     "config": {
