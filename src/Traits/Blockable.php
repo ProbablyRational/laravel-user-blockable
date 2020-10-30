@@ -1,8 +1,8 @@
 <?php
 
-namespace Hareku\LaravelBlockable\Traits;
+namespace ProbablyRational\LaravelBlockable\Traits;
 
-use Hareku\LaravelBlockable\Models\BlockRelationship;
+use ProbablyRational\LaravelBlockable\Models\BlockRelationship;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Carbon\Carbon;
