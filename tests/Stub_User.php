@@ -1,10 +1,10 @@
 <?php
 
-namespace Hareku\LaravelBlockable\Tests;
+namespace ProbablyRational\LaravelBlockable\Tests;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Hareku\LaravelBlockable\Traits\Blockable;
+use ProbablyRational\LaravelBlockable\Traits\Blockable;
 
 class User extends Authenticatable
 {
